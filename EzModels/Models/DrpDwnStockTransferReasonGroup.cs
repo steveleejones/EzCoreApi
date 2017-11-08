@@ -1,0 +1,5 @@
+public class DrpDwnStockTransferReasonGroup
+{
+    public long id { get; set; }
+    public string desc { get; set; }
+}

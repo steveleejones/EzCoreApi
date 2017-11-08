@@ -1,0 +1,40 @@
+public class ListSites
+{
+    public long id { get; set; }
+    public string mnem { get; set; }
+    public string desc { get; set; }
+    public long? grp { get; set; }
+    public long? cont { get; set; }
+    public string dumid { get; set; }
+    public string extsit { get; set; }
+    public long? curr { get; set; }
+    public long? openhrs { get; set; }
+    public string suptxt { get; set; }
+    public string itfoot { get; set; }
+    public string add1 { get; set; }
+    public string add2 { get; set; }
+    public string add3 { get; set; }
+    public string addtwn { get; set; }
+    public string pcod { get; set; }
+    public long? country { get; set; }
+    public string smsfrom { get; set; }
+    public string emailfrom { get; set; }
+    public string emailfromtxt { get; set; }
+    public string helpurl { get; set; }
+    public string ddcutoff { get; set; }
+    public byte? ddcoldate { get; set; }
+    public byte? othcoldate { get; set; }
+    public string pubkey { get; set; }
+    public bool Disabled { get; set; }
+    public byte adminday { get; set; }
+    public DateTime? StartDate { get; set; }
+    public string phoneno { get; set; }
+    public string adminemail { get; set; }
+    public byte acctdetsopt { get; set; }
+    public byte acctbicopt { get; set; }
+    public byte acctibanopt { get; set; }
+    public long? WristbandScheduleId { get; set; }
+    public long? batch { get; set; }
+    public DateTime? lastupd { get; set; }
+    public string Currency { get; set; }
+}
